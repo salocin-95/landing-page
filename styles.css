@@ -11,6 +11,25 @@ body {
 .header {
     color: white;
     background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 2rem;
+    color: aliceblue;
+    list-style: none;
+    list-style-type: none;
+    text-decoration-line: none;
+}
+
+a {
+    color:aliceblue;
+    list-style: none;
+    list-style-type: none;
+    text-decoration-line: none;
 }
 
 .page-container {
@@ -22,6 +41,20 @@ body {
     color: aliceblue;
     background-color: black;
 }
+
+ .hero-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+ }
+
+ .hero-text {
+    flex: 1;
+ }
+
+ .hero-image {
+    flex: 1;
+ }
 
 .information {
     color: blanchedalmond;
