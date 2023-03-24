@@ -40,7 +40,7 @@ li, a {
 }
 
 a:hover {
-    color: blue;
+    color: #3882f6;
 }
 
 .hero {
@@ -55,6 +55,8 @@ a:hover {
     font-size: 48px;
     font-weight: bolder;
     color: #f6faf8;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-text {
@@ -62,8 +64,28 @@ a:hover {
 }
 
 .hero-paragraph {
+    margin: 0;
+    padding-bottom: 1rem;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-sign-up {
+    font-weight: bold;
+    color: #f6faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 1rem;
+}
+
+.hero-sign-up:hover {
+    font-weight: bold;
+    color: #3882f6;
+    background-color: #f6faf8;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 1rem;
 }
 
 .hero-image {
@@ -76,6 +98,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     background-color: #f6faf8;
+    padding-bottom: 2rem;
 }
 
 .information-title {
@@ -102,12 +125,21 @@ a:hover {
     border-radius: 10px;
 }
 
+.box-subtext {
+    max-width: 150px;
+    text-align: center;
+}
+
 .quote-background {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5rem 15rem;
+}
+
+.quote-container {
+    max-width: 800px;
 }
 
 .quote-text {
@@ -124,22 +156,61 @@ a:hover {
 .call-to-action {
     display: flex;
     justify-content: center;
-    background-color: goldenrod;
+    background-color: #f6faf8;
+    padding: 5rem;
 }
 
 .call-to-action-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 2rem;
-    background-color: cornflowerblue;
+    background-color: #3882f6;
     width: 100%;
     margin: 2rem 15rem;
-    padding: 2rem;
+    padding: 2rem 6rem;
+    border-radius: 6px;
 }
+
+.call-to-action-text {
+    color: #f6faf8;
+}
+
+.its-time {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.paragraph {
+    font-size: 16px;
+}
+
+.call-to-action-sign-up {
+    font-weight: bold;
+    color: #f6faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: solid;
+    border-color: #f6faf8;
+    padding: 5px 1rem; 
+}
+
+.call-to-action-sign-up:hover {
+    font-weight: bold;
+    color: #3882f6;
+    background-color: #f6faf8;
+    border-radius: 5px;
+    border: solid;
+    border-color: #f6faf8;
+    padding: 5px 1rem; 
+}
+
 
 footer {
     display: flex;
     justify-content: center;
+    font-size: 16px;
+    padding: 2rem;
     color: aliceblue;
     background-color: #1f2937;
 }
