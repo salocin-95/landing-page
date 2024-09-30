@@ -1,0 +1,41 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+    width: 100%;
+}
+
+main {
+    width: 50%;
+}
+nav {
+    padding: 0;
+}
+
+.nav {
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+}
+
+.images-container {
+    display: flex;
+    width: 50%;
+}
+
+.testimonials {
+    display: flex;
+    background: wheat;
+}
