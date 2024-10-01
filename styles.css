@@ -1,40 +1,94 @@
 body {
     font-family: Roboto;
-    display: flex;
-    flex-flow: column;
     margin: 0;
-    padding: 0;
-}
-
-.container {
+    height: 100%;
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
-nav {
+a {
+    all: unset;
+}
+
+.nav-container {
+    padding: 0rem 25rem 0rem 25rem;
+}
+.container {
+    padding: 2rem 25rem 4rem 25rem;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.hero {
     background-color: aliceblue;
 }
 
-main {
-    padding: 50px;
+.hero-container {
+    display: flex;
 }
-.hero {
-    background-color: aqua;s
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
 }
 
 .info {
-    background-color: aquamarine;
+    background-color: rebeccapurple;
 }
 
-.quote {
-    background-color: yellow;
+.info-title {
+    padding-bottom: 5rem;
 }
 
-.call-to-action {
-    background-color: red;
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.footer {
-    background-color: ;
+.info-cards {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    text-align: start;
+}
+
+.quote-author {
+    text-align: end;
+}
+
+.cta-box {
+    padding: 3rem;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
 }
